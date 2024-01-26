@@ -109,14 +109,111 @@ body {
     background-image: url('../medias/studio/6.png');
 }
 
+#question {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
 #question p {
     font-family: 'Poppins', sans-serif;
     color : rgb(167, 184, 241);
     font-weight: bold;
-    display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    font-size: 1.5rem;
-    gap: 3rem;
+    font-size: 2rem;
+    margin-top: 2.5rem;
     /* margin: 2rem 3rem; */
 }
+
+.p-gold {
+    color: #ffd57f !important;
+}
+
+.p-sand {
+    color: #cfc89e !important;
+}
+
+.checkicon {
+    color: #1fd619;
+    font-size: 2rem;
+}
+
+#services {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.s-title {
+    font-family: 'Anton', sans-serif;
+    color : rgb(255, 213, 127);
+    font-size: 3rem;
+}
+
+#services p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.s-span {
+    color : rgb(255, 213, 127);
+}
+
+.s-parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2.5rem 25%;
+}
+
+.s-card {
+    padding: 2.5rem 0;
+}
+
+.s-card img {
+    border-radius: 50%;
+    width: 200px; /* Ajoutez une largeur fixe */
+    height: 200px; /* Ajoutez une hauteur égale à la largeur pour créer un cercle */
+    object-fit: cover; /* Cette propriété assure que l'image couvre entièrement l'espace sans être déformée */
+}
+
+#realisations {
+    text-align: center;
+}
+
+#realisations h2 {
+    font-family: 'Anton', sans-serif;
+    color : rgb(255, 213, 127);
+    font-size: 3rem;
+}
+
+#contact {
+    text-align: center;
+}
+
+#contact h2 {
+    font-family: 'Anton', sans-serif;
+    color : rgb(255, 213, 127);
+    font-size: 3rem;
+    margin-bottom: 2.5rem;
+}
+
+.infos {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2.5rem;
+}
+
+.infos h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.infos p {
+    color: lightgray;
+    font-family: 'Poppins', sans-serif;
+}
+
